@@ -35,19 +35,19 @@ class DataApi extends Component {
                 {/* <JsonToTable json={data} /> */}
                 <table align='center' >
                     <tr>
-                        <th>employe_ID</th>
-                        <th>employee_Name</th>
-                        <th>employee_Salary</th>
-                        <th>employee_Age</th>
+                        <th>ID</th>
+                        <th>albumId</th>
+                        <th>title</th>
+                        <th>url</th>
                         <th>profile_image</th>
                     </tr>
                     {recdata.map(item => (
                         <tr>
                             <td>{item.id} </td>
-                            <td>{item.employee_name}</td>
-                            <td>{item.employee_salary} </td>
-                            <td>{item.employee_age}</td>
-                            <td><imgage src={item.profile_image} alt='Employee image' /></td>
+                            <td>{item.albumId}</td>
+                            <td>{item.title} </td>
+                           <td> <a src= {item.url}>{item.url}</a></td>
+                            <td><a src={item.thumbnailUrl}>{item.thumbnailUrl}</a> </td>
                         </tr>
                     ))}
                 </table>
