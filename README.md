@@ -23,8 +23,9 @@ a simple example to demonstrate how to use custom Hooks
    to know more visit -> https://medium.com/@jraleman/ternary-operators-vs-if-else-statements-6c26f7d034f7
    
  simple news app using google news api
- 
- "http://newsapi.org/v2/top-headlines?sources=google-news&apiKey=0fe1ec538ed9450caa9cf03e8edd9b17"
+  "http://newsapi.org/v2/top-headlines?sources=google-news&apiKey=0fe1ec538ed9450caa9cf03e8edd9b17"
+  Another example of news app using newsapi.org
+  "https://github.com/haerulmuttaqin/PopularNews"
  
  getArticles() {
 xios
