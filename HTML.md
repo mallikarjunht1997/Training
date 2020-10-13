@@ -127,3 +127,31 @@ User Agent will have a default style sheet that presents documents in a reasonab
    For search engines and assistive tools, the use of section, article, nav, header, footer etc helps to index correct page contents, optimize the page (eg when the network is slow), read the content appropriately for the people with vision problem etc
 
 # `<section>, <article>, <aside>`
+* An `<article>` is intended to be independently distributable or reusable.
+* A `<section>` is a thematic grouping of content.
+* The `<aside>` is for content that is not part of the flow of the text in which it appears, however still related in some way, like sidebar.  
+
+| code | fig |  
+|--- |--- |  
+| ![aside](images/aside.png "html code")| ![diagram](images/asid_dig.jpg "css brackdown")|  
+
+#### Canvas
+
+| code | fig |  
+|--- |--- |  
+| ![aside](images/canvas_code.png "circle example")| ![diagram](images/canvas.png "circle")|  
+
+#### Best HTML Practices | SEO Benefits  
+* Use proper document structure though it may work even without html tag 
+- Declare the correct doctype
+-  Semantic tags to be used
+-  h1-h6 to be used meaningfully  - One h1 per page
+-  Always close tags even if it is empty tag
+-  [Validate](https://validator.w3.org/) the document 
+-  Alt to be used approporatly and use the right keywords in images.
+-  Meta tags for every page
+-  Use lowercase markup
+-  Place script tags at the bottom	
+-  Remove anything that slows down the site
+-  Avoid inline css
+-  Mobile Friendliness
