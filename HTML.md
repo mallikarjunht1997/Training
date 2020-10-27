@@ -118,13 +118,13 @@ User Agent will have a default style sheet that presents documents in a reasonab
 * New multimedia elements 
   - `<audio> and <video>`
 * New APIs
-  - Geolocation, Drag and Drop, Local Storage etc
+  - Geolocation, Drag and Drop, Local Storage etc...
 
 > Lots of Semantic elements But why?
 
 `<article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time>`
 ## [Greater accessibility](https://www.freecodecamp.org/news/semantic-html5-elements/)
-   For search engines and assistive tools, the use of section, article, nav, header, footer etc helps to index correct page contents, optimize the page (eg when the network is slow), read the content appropriately for the people with vision problem etc
+   For search engines and assistive tools, the use of section, article, nav, header, footer etc helps to index correct page contents, optimize the page (eg when the network is slow), read the content appropriately for the people with vision problem etc....
 
 # `<section>, <article>, <aside>`
 * An `<article>` is intended to be independently distributable or reusable.
@@ -145,7 +145,7 @@ User Agent will have a default style sheet that presents documents in a reasonab
 * Use proper document structure though it may work even without html tag 
 - Declare the correct doctype
 -  Semantic tags to be used
--  h1-h6 to be used meaningfully  - One h1 per page
+-  h1-h6 to be used meaningfully  - One h1 per page...
 -  Always close tags even if it is empty tag
 -  [Validate](https://validator.w3.org/) the document 
 -  Alt to be used approporatly and use the right keywords in images.
